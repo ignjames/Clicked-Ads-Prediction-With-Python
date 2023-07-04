@@ -6,16 +6,16 @@ Dengan mengolah data historical advertisement serta menemukan insight serta pola
 <hr>
 Data terdiri dari 1000 baris dengan 10 fitur dengan 1 fitur target yaitu clicked on ad. <br/> 
 Terminologi tiap fitur: <br/>  
-- daily time spent on site: waktu customer browsing dalam sehari <br/>
-- age: umur  <br/>
-- area income: penghasilan  <br/>
-- daily internet usage: kuota internet yang digunakan dalam sehari  <br/>
-- male: jenis kelamin  <br/>
-- timestamp: waktu browsing terakhir yang tercatat  <br/>
-- clicked on ad: klik ads atau tidak <br/>  
-- city: kota  <br/>
-- province: provinsi  <br/>
-- category: kategori yang dilihat oleh customer  <br/>
+- Daily time spent on site: waktu customer browsing dalam sehari <br/>
+- Age: umur  <br/>
+- Area income: penghasilan  <br/>
+- Daily internet usage: kuota internet yang digunakan dalam sehari  <br/>
+- Male: jenis kelamin  <br/>
+- Timestamp: waktu browsing terakhir yang tercatat  <br/>
+- Clicked on ad: klik ads atau tidak <br/>  
+- City: kota  <br/>
+- Province: provinsi  <br/>
+- Category: kategori yang dilihat oleh customer  <br/>
 
 ## Exploratory Data Analysis<br/>
 1. Statistical Descriptive <br/>
