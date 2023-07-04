@@ -26,7 +26,7 @@ Terminologi tiap fitur: <br/>
 1. Feature Engineering: Menentukan target dan merubah kolom timestamp mnejadi dayofweek
 2. Hypotesis Testing: ANOVA dan chi square
 3. Split test dan train
-4. Pipeline: simpleimputer untuk mengisi missing value dan algoritma machine learning
+4. Pipeline: Simpleimputer untuk mengisi missing value dan algoritma machine learning
 
 ## Result
 - Mencoba menggunakan 3 algoritma yaitu: Random Forest, XGBoost, dan Gradient Boosting.
