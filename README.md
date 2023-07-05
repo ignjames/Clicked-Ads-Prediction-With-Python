@@ -1,21 +1,21 @@
 # Predict Clicked Ads Customer Classification by Using Machine Learning
-Sebuah perusahaan di Indonesia ingin mengetahui efektifitas sebuah iklan yang mereka tayangkan, hal ini penting bagi perusahaan agar dapat mengetahui seberapa besar ketercapainnya iklan yang dipasarkan sehingga dapat menarik customers untuk melihat iklan. <br/>
-Dengan mengolah data historical advertisement serta menemukan insight serta pola yang terjadi, maka dapat membantu perusahaan dalam menentukan target marketing. Fokus case ini adalah membuat model machine learning classification yang berfungsi menentukan target customers yang tepat,yang kemungkinan akan mengklik iklan yang ditampilkan oleh tim marketing.  
+A company in Indonesia wants to know the effectiveness of an advertisement that they display, this is important for the company to be able to find out how much the advertising attracts the market.
+By processing historical advertisement data and finding insights and patterns that occur, it can help the company determine marketing targets. The focus of this case is to create a machine-learning classification model to identify customers who are likely to click on the ads displayed by the marketing team.
 
 ### Dataset Overview
 <hr>
-Data terdiri dari 1000 baris dengan 10 fitur dengan 1 fitur target yaitu clicked on ad. <br/> 
-Terminologi tiap fitur: <br/>  
-- Daily time spent on site: waktu customer browsing dalam sehari <br/>
-- Age: umur  <br/>
-- Area income: penghasilan  <br/>
-- Daily internet usage: kuota internet yang digunakan dalam sehari  <br/>
+Data contains 1000 rows with 10 features. <br/> 
+Terminologies: <br/>  
+- Daily time spent on site: Daily time spent on site <br/>
+- Age: Age  <br/>
+- Area income: Income <br/>
+- Daily internet usage: Daily internet usage  <br/>
 - Male: jenis kelamin  <br/>
-- Timestamp: waktu browsing terakhir yang tercatat  <br/>
-- Clicked on ad: klik ads atau tidak <br/>  
-- City: kota  <br/>
-- Province: provinsi  <br/>
-- Category: kategori yang dilihat oleh customer  <br/>
+- Timestamp: Time when the customer decides to click or not click <br/>
+- Clicked on ad: Did the customer click on the ad <br/>  
+- City: City  <br/>
+- Province: Province  <br/>
+- Category: Category looked by the customer  <br/>
 
 ## Exploratory Data Analysis<br/>
 1. Statistical Descriptive <br/>
@@ -23,15 +23,15 @@ Terminologi tiap fitur: <br/>
 3. Bivariate Analysis <br/>
 
 ## Data Preprocessing and Modelling</br>
-1. Feature Engineering: Menentukan target dan merubah kolom timestamp mnejadi dayofweek
-2. Hypotesis Testing: ANOVA dan chi square
+1. Feature Engineering
+2. Hypotesis Testing
 3. Split test dan train
-4. Pipeline: Simpleimputer untuk mengisi missing value dan algoritma machine learning
+4. Pipeline
 
 ## Result
-- Mencoba menggunakan 3 algoritma yaitu: Random Forest, XGBoost, dan Gradient Boosting.
-- Scoring: Accuracy karena target balance, dan Precision untuk meminimalisir false positive
-- Hasil: Algoritma terbaik XGBoost dengan nilai Accuracy 0.95, Precision 0.96
-- Most Important Feature: Daily internet usage
+- Tried 3 algorithms: Random Forest, XGBoost, and Gradient Boosting.
+- Scoring: Accuracy because of a balanced target, and Precision to minimalize false positive.
+- Hasil: The best algorithm is XGBoost with 0.95 Accuracy and 0.96 Precision.
+- Most Important Feature: Daily internet usage.
 
-Hasil simulasi bisnis dengan menggunakan CLICK PER IMPRESSION sebagai acuan menunjukkan adanya potensi keuntungan hingga **44%**
+Business simulation using CLICK PER IMPRESSION as the advertisement method could give potential income up to **44%**.
